@@ -30,7 +30,7 @@
       <div class="dropdown-content">
         <a href="#">About</a>
         <a href="#">Books</a>
-        <a href="#">Gallery</a>
+        <a href="http://127.0.0.1:5500/pg3/contact.html">Contact</a>
       </div>
     </div>
     <div class="logoacct">
@@ -40,36 +40,48 @@
   </div>
 <!--Navbar done-->
 
-<!--login form-->
-  <form action="">
-    <fieldset>
-      <h1 id="top">We love to hear from you!</h1>
-      <p>Fill out our form and our team will get back to you within 3-4 business days.</p>
-      <label>
-        <input type="text" placeholder="Name"></label><br>
-      <label>
-          <input type="text" placeholder="Email"></label><br>
-      <label>
-          <p>What do you need help with?</p>
-          <select name="Inquiry" selected>
-            <option value="New Project" selected>Inquiry</option>
-            <option value="New Project">Existing Case</option>
-            <option value="Old Porject">Something Else</option>
-          </select>
-      </label><br>
-      <label>
-          <input type="text" placeholder="Type here">
-      </label><br>            
-      <br>
-      <input type="submit" value="Send Message">
-    </fieldset>
-    <img id="internal" src="./imgs/bookcover.jpg">
-    <style>
-    #internal {
-      width: 60%;
-    }
-  </style>
-  </form>
 
+  <div class="accountInfo">
+    <div class="cont1">
+      <form action="#">
+        <fieldset class="log-in">
+          <h2>Purrrfectly bound</h2>
+          <h4>Welcome back, Kittens!</h4>
+          <p>Please enter your login below.</p>
+        <label for="username">
+          <input type="text" placeholder="Username" id="username" required class="boxes"/>
+        </label>
+
+      <br>
+        <label for="password">
+          <input type="password" placeholder="Password" name="password" id="password" required class="boxes"/>
+        </label>
+        </fieldset>
+    </div>
+
+    <div class="catgif">
+      <img src="./imgs/catgif.gif" alt="gif of cat staring out the window" style="width: 100%;">
+    </div>
+      
+    <div class="join">
+        <form action="">
+            <fieldset class="log-in">
+                <h2>Join the community</h2>
+                <label>
+                    First Name: <input type="text" class="boxes"></label><br>
+                <label>
+                    Last Name: <input type="text" class="boxes"></label><br>
+                <label>
+                    Email: <input type="text" class="boxes"></label><br>
+                <fieldset>
+                <label>Create a password
+                    <input type="password" id="pass">
+                </label><br>
+                </fieldset>
+                </label>
+            </fieldset>
+        </form>
+    </div>
+  </div>
 
 </body>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Macondo&family=Oleo+Script:wght@400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="C:\Users\Mishy_2\Desktop\RTT-43\SBA\index.html">
+</head>
+
+<body>
+    <div class="navbar">
+    <a href="#"><img src="./imgs/cart.png" alt="cart icon" width="30px" height="25px"/></a>
+    <div class="dropdown">
+      <button class="dropbtn"><img src="./imgs/book.png" alt="book icon" width="30px" height="25px">
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">About</a>
+        <a href="#">Books</a>
+        <a href="http://127.0.0.1:5500/pg3/contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="logoacct">
+        <a id="acct" href="http://127.0.0.1:5500/pg2/login.html#"><img src="./imgs/Icon.png" alt="acct icon" width="32px" height="32px" text-align="center"/></a>
+        <a id="logo" href="http://127.0.0.1:5500/index.html#"><img src="./imgs/Catacct.png" alt="cat icon" width="35px" height="35px" text-align="center"/>Kitty Klub Publishing</a>
+    </div>
+  </div>
+<!--Navbar done-->
+
+<!--login form-->
+  <form action="">
+    <fieldset>
+      <h1 id="top">We love to hear from you!</h1>
+      <p>Fill out our form and our team will get back to you within 3-4 business days.</p>
+      <label>
+        <input type="text" placeholder="Name"></label><br>
+      <label>
+          <input type="text" placeholder="Email"></label><br>
+      <label>
+          <p>What do you need help with?</p>
+          <select name="Inquiry" selected>
+            <option value="New Project" selected>Inquiry</option>
+            <option value="New Project">Existing Case</option>
+            <option value="Old Porject">Something Else</option>
+          </select>
+      </label><br>
+      <label>
+          <input type="text" placeholder="Type here">
+      </label><br>            
+      <br>
+      <input type="submit" value="Send Message">
+    </fieldset>
+    <img id="internal" src="./imgs/bookcover.jpg">
+    <style>
+    #internal {
+      width: 60%;
+      height: 380px;
+      object-fit: cover;
+    }
+  </style>
+  </form>
+
+
+</body>
