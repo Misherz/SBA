@@ -1,0 +1,162 @@
+body {
+    background-color: #d6d4d4;
+}
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #857f7f;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(242, 215, 188);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(221, 188, 136);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dfdfdf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: rgb(24, 2, 2);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.logoacct {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    gap: 1px;
+}
+
+#logo {
+        font-family: "Cedarville Cursive", cursive;
+        font-weight: 900;
+        font-style: normal;
+        margin: 0;
+        padding: 1;
+        border: none;
+}
+
+
+/*Middle Content*/
+.main_content {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Centered text */
+  .text_content {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    max-height: 10%;
+  }
+
+  .text_content {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #f5e5e5;
+  } /*loen ipsum main header*/
+
+  .para {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-40%, -10%);
+    max-height: 1%;
+    text-align: left;
+  } /*position for paragraphs*/
+
+  .para {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #f5e5e5;
+  } /*style for paragraphs*/
+
+
+/*Last Content*/
+.last_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: solid 2px #a48181;
+    background-color: #857f7f;
+    width: 380px;
+}
+
+.boxy {
+    background-color: #857f7f;
+    text-align: center;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #f5e8e8;
+    height: 100px;
+    width: 100%;
+    margin: 10px;
+}
