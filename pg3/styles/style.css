@@ -111,12 +111,13 @@ margin: 0;
 
 #top {
 font-size: 70px;
+font-family: "Macondo", cursive;
 }
 
 p {
 text-align: left;
 color: rgb(226, 230, 204);
-font-family: "Oleo Script", system-ui;
+font-family: "Macondo", cursive;
 font-weight: 400;
 font-style: normal;
 margin: 0;
@@ -125,14 +126,10 @@ margin: 0;
 label > input {
 display: inline-block;
 align-items: left;
+font-family: "Macondo", cursive;
+background-color: #e5edec;
+width: 200px;
 }
-
-/* form {
-display: inline-block;
-text-align: center;
-width: 100vh;
-position: relative;
-} */
 
 form {
 display: flex;
@@ -142,3 +139,37 @@ width: 100%;
 flex-grow: inherit;
 }
 
+#smbtn {
+  font-family: "Macondo", cursive;
+  width: 205px;
+  font-size: medium;
+} /*send message button*/
+
+#selections {
+  font-family: "Macondo", cursive;
+  font-size: medium;
+} /*Drop Down Selections*/
+
+#chatbox {
+  height: 40px;
+}
+
+
+/*Bottom Content*/
+#contact_table {
+  display: flex;
+  justify-content: center;
+  font-family: "Macondo", cursive;
+}
+
+caption {
+  font-family: "Macondo", cursive;
+}
+
+#contact_table:hover {
+  font-size: 25px;
+  color: rgb(226, 230, 204);;
+  transition-property: all;
+  transition-duration: 1s;
+  background-color: rgb(151, 194, 190);;
+}

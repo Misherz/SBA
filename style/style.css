@@ -152,22 +152,3 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 }
-/* 
-.box {
-  border: solid 2px #a48181;
-  background-color: #857f7f;
-  width: 380px;
-} */
-
-.boxy {
-  background-color: #6e4545;
-  text-align: center;
-  font-family: "Macondo", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
-  color: #f5e8e8;
-  height: 100px;
-  width: 100%;
-  margin: 10px;
-}

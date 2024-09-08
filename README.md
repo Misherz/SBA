@@ -14,12 +14,14 @@
     Only 3 established pages for the site: 
     Home Page
     Login
-    About
 
     Note:
     You can navigate to the home page with the logo icon on the top-right
     You can navigate to the login page with the account icon on the top-right
     You can navigate to the About page under the Menu items from the book's icon on the top-left
+
+    Additonal Notes:
+    Contact button gets larger when hovered over
 
 
 
@@ -37,4 +39,7 @@
     Images: https://www.pexels.com/photo/pile-of-assorted-novel-books-694740/
     https://www.pexels.com/photo/close-up-of-paper-over-white-background-256450/
 
+
+### Github:
+    https://github.com/Misherz/SBA.git
 

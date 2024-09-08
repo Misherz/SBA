@@ -51,17 +51,17 @@
           <input type="text" placeholder="Email"></label><br>
       <label>
           <p>What do you need help with?</p>
-          <select name="Inquiry" selected>
+          <select name="Inquiry" selected id="selections">
             <option value="New Project" selected>Inquiry</option>
             <option value="New Project">Existing Case</option>
             <option value="Old Porject">Something Else</option>
           </select>
       </label><br>
       <label>
-          <input type="text" placeholder="Type here">
+          <input type="text" placeholder="Type here" id="chatbox">
       </label><br>            
       <br>
-      <input type="submit" value="Send Message">
+      <input type="submit" value="Send Message" id="smbtn">
     </fieldset>
     <img id="internal" src="./imgs/bookcover.jpg">
     <style>
@@ -72,6 +72,20 @@
     }
   </style>
   </form>
+
+  <div id="contact_table">
+    <table>
+      <caption>Contact</caption>
+      <tbody>
+        <tr>
+           <td>Address:   </td>
+           <td>221b Baker St, London NW1 6XE, UK</td>
+        </tr>
+        <tr>
+          <td>Phone: </td>
+          <td>555-2368</td>
+       </tr>
+  </div>
 
 
 </body>
